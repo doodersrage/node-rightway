@@ -7,10 +7,17 @@ const fs = require('fs'),
 
 	  	// reporting
 	  	console.log('Subscriber connected.');
-	  	connection.write("Now watching '" + filename + "' for changes...\n");
+	  	connection.write(JSON.stringify({
+	  									type: "watching",
+	  									file: filename
+	  								}) + "\n");
 
 	  	let watcher = fs.watch(filename, function(){
-	  		connection.write("File '" + filename + "' changed: " + Date.now() + "\n");
+	  		connection.write(JSON.stringify({
+	  										type: 'changed',
+	  										file: filename,
+	  										timestamp: Date.now()
+	  									}) + "\n");
 	  	});
 
 	  	// cleanup
@@ -25,7 +32,7 @@ if(!filename){
 	throw Error('No target filename was specified.');
 }
 
-server.listen('/tmp/watcher.sock', function(err){
+server.listen(5432, function(err){
 	if(err){
 		throw Error(err);
 	}
