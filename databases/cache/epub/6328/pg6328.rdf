@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+>
+  <pgterms:ebook rdf:about="ebooks/6328">
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N0d4f5dbfb34443349de3eadf4f2cec20">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Children's Anthologies</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Nf29a757c643746bfb45ff08b1afc0c6a">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138</pgterms:downloads>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N64d22b11e427484f9ff08d8bb12b3692">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PZ</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N0d5f8c4af23c423293432697b6616bdf">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/dirs/etext04/jrcl510.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc189a7e1d7b94e0ca8ceaeb6faf266f2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-11-27T04:26:54</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">287899</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N151b9e26682e4e8cadd32389fdfc9300">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/6328"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6328.plucker">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc169fa06e023411ebc7c8deabe1962fa">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">439517</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/6328"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T02:19:04.441115</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6328.qioo">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T02:18:57.338227</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6786c5c38ef948719cfb15fc5964275b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/6328"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">349751</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>The Junior Classics — Volume 5: Stories that never grow old</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-08-01</dcterms:issued>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6328.txt.utf-8">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T01:47:59.212922</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc13c1a36c1b64de89e64ddde041dd21d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/6328"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">781592</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/dirs/etext04/jrcl510.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/6328"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">781624</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-11-27T04:26:54</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0eee483cdcc7403cb91e3a5abeaf9323">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6328.html.gen">
+        <dcterms:isFormatOf rdf:resource="ebooks/6328"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T01:47:57.424689</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb09aa9f9925749f1bb8d99ec5caa4d27">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">809252</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6328.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">319875</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N172b0ec0e6bc46ef8ad78ff56e90f100">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T01:48:01.306805</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/6328"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:tableOfContents>Arabian Nights&#13;
+--Ali Baba and the Forty Thieves&#13;
+--The Story of Aladdin; or the Wonderful Lamp&#13;
+--Sindbad the Sailor&#13;
+Robinson Crusoe&#13;
+--Robinson Crusoe is Shipwrecked, by Daniel Defoe&#13;
+--Alone on a Desolate Island, by Daniel Defoe&#13;
+--The Building of the Boat, by Daniel Defoe&#13;
+--Finds the Print of a Man's Foot on the Sand, by Daniel Defoe&#13;
+--Friday Rescued from the Cannibals, by Daniel Defoe&#13;
+--Robinson Crusoe Rescued, by Daniel Defoe&#13;
+Gulliver's Travels&#13;
+--Gulliver is Shipwrecked and Swims for His Life, by Jonathan Swift&#13;
+--Gulliver at the Court of Lilliput, by Jonathan Swift&#13;
+--Gulliver Captures Fifty of the Enemy's Ships, by Jonathan Swift&#13;
+--Gulliver Leaves Lilliput, by Jonathan Swift&#13;
+--Gulliver in the Land of the Giants, by Jonathan Swift&#13;
+--Some of Gulliver's Adventures, by Jonathan Swift&#13;
+--Gulliver Escapes from the Eagle, by Jonathan Swift&#13;
+The Plays Of Shakespeare&#13;
+--A Midsummer-Night's Dream, by E. Nesbit&#13;
+--The Tempest, by E. Nesbit&#13;
+--As You Like It, by E. Nesbit&#13;
+--The Merchant of Venice, by E. Nesbit&#13;
+Pilgrim's Progress&#13;
+--Christian Starts on His Journey, by John Bunyan&#13;
+--The Interpreter Shows Christian Many Excellent Things, by John Bunyan&#13;
+--Christian's Fight With the Monster Apollyon, by John Bunyan&#13;
+--Christian and Hopeful are Captives in Doubting Castle, by John Bunyan&#13;
+--Christian and Hopeful Arrive at the Coelestial City, by John Bunyan&#13;
+Ivanhoe And Guy Mannering, by Sir Walter Scott&#13;
+--Ivanhoe, by Sir Edward Sullivan&#13;
+--Guy Mannering, by Sir Edward Sullivan&#13;
+The Startling Adventures Of Baron Munchausen&#13;
+--An Adventure With a Lion and a Crocodile, by R. E. Raspe&#13;
+--Crossing the Thames Without the Aid of Bridge, Boat or Balloon, by R. E. Raspe&#13;
+--Two Strange Adventures in Russia, by R. E. Raspe&#13;
+--Shooting a Stag With Cherrystones, by R. E. Raspe&#13;
+--The Baron's Wonderful Dog, by R. E. Raspe</dcterms:tableOfContents>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/1118">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1868</pgterms:birthdate>
+        <pgterms:name>Patten, William</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1936</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6328.kindle.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T01:48:03.798329</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">463752</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/6328"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na9bb1ac0443749d2b7d0e41572064db9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N319cbe78c5184c05b13a4dab598ffabc">
+        <rdf:value>Children's literature</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6328.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-19T09:26:24.862662</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/6328"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12207</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N11a510e0466344508d3df66bb0eb4667">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+  </cc:Work>
+</rdf:RDF>
